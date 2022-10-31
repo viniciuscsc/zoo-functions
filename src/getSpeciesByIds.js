@@ -1,6 +1,6 @@
 const data = require('../data/zoo_data');
 
-const { species } = data;
+// const { species } = data;
 // console.log(species);
 
 // function getSpeciesByIds(ids) {
@@ -12,12 +12,12 @@ const { species } = data;
 //   return 0;
 // }
 
-function getSpeciesByIds(...ids) {
-  return species.find((specie) => {
-    return ids === specie.id;
-  })
-}
+// function getSpeciesByIds(...ids) {
+//   return species.find((specie) => {
+//     return ids === specie.id;
+//   })
+// }
 
-console.log(getSpeciesByIds('e8481c1d-42ea-4610-8e11-1752cfc05a46'));
+// console.log(getSpeciesByIds('e8481c1d-42ea-4610-8e11-1752cfc05a46'));
 
 module.exports = getSpeciesByIds;
