@@ -5,18 +5,18 @@ const locations = ['NE', 'NW', 'SE', 'SW'];
 const filterNotIncludeNames = () => {
   const animalsByLocation = {};
   locations.forEach((location) => {
-    animalsByLocation[location] = species.filter((specie) => {
-      return specie.location === location;
-    }).map((specie) => specie.name);
+    animalsByLocation[location] = species
+      .filter((specie) => specie.location === location)
+      .map((specie) => specie.name);
   });
   return animalsByLocation;
 };
 
 const filterSex = (optionsValues, specie) => {
   if (optionsValues.includes('female')) {
-    return specie.residents.filter((resident) => {
-      return resident.sex === 'female';
-    }).map((resident) => resident.name);
+    return specie.residents
+      .filter((resident) => resident.sex === 'female')
+      .map((resident) => resident.name);
   }
   return specie.residents
     .filter((resident) => resident.sex === 'male')
