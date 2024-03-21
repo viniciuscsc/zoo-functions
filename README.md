@@ -1,10 +1,9 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Zoo Functions
+
+## Descrição
+Projeto desenvolvido durante a seção de ``Métodos de Array``, do módulo de Fundamentos, do curso de Desenvolvimento Web Full Stack da Trybe.
+
+Acesso a dados armazenados em formato de Array e Objetos JavaScript em arquivo, para escrita de funções específicas, simulando o contexto do funcionamento de um zoológico (Animais, Funcionários, Visitantes, Funcionamento, etc.)
+
+## Tecnologias utilizadas
+- JavaScript
